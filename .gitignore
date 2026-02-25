@@ -410,6 +410,9 @@ FodyWeavers.xsd
 # Built Visual Studio Code Extensions
 *.vsix
 
+# Merge script output — generated file, not source-controlled
+tools/output/
+
 # Windows Installer files from build outputs
 *.cab
 *.msi
