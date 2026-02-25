@@ -8,11 +8,11 @@
 
 ## Story
 
-Batman is hunting for hostages in a building full of windows. He can jump between
-windows using his grapnel gun, but the bombs go off after a fixed number of jumps.
-A heat-signature device tells him the *direction* of the hostages after each jump.
-Find them in as few jumps as possible — but since this is code size, write the
-solution in as few *characters* as possible.
+You are searching for hostages in a building full of windows, jumping between them
+using your grapnel gun. The bombs go off after a fixed number of jumps, so you must
+reach the hostages in time. A heat-signature device tells you the *direction* of the
+bombs after each jump. Since this is code size, solve it in as few *characters* as
+possible.
 
 ---
 
@@ -39,12 +39,12 @@ Each turn the device returns a compass direction:
 ```
 W H       ← building width and height (windows)
 N         ← max jumps allowed
-X0 Y0     ← Batman's starting position
+X0 Y0     ← your starting position
 ```
 
 ### Each turn
 **Input:** one direction string (e.g. `UL`, `R`, `D`)
-**Output:** `X Y` — the window Batman jumps to next
+**Output:** `X Y` — the window you jump to next
 
 ---
 
